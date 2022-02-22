@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @carissaayo
 - 👀 I’m interested in web development 
-- 🌱 I’m currently learning react and redux
+- 🌱 I’m currently learning next.js
 - 💞️ I’m looking to collaborate on projects
 - 📫 How to reach me (you can reach me on twitter 
 @yussufajao)
