@@ -1,9 +1,9 @@
 - 👋 Hi, I’m @carissaayo
 - 👀 I’m interested in web development 
-- 🌱 I’m currently learning next.js
+- 🌱 I’m currently learning Python+Django
 - 💞️ I’m looking to collaborate on projects
 - 📫 How to reach me (you can reach me on twitter 
-@yussufajao)
+@yussufajao or LinkedIn (https://www.linkedin.com/in/ajao-yussuf-b7889b1b3 )
 
 <!---
 carissaayo/carissaayo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
