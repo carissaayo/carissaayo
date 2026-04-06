@@ -2,27 +2,29 @@
 
 **Software Engineer** based in Ilorin, Nigeria
 
-I design and build software -- from full-stack web applications to distributed backend systems. Currently going deeper into **Go**, exploring concurrency, event-driven architectures, and low-level systems design. Next up: building an **API Gateway** in Go.
+I design and build software — from full-stack web applications to distributed backend systems. Currently going deeper into **Go**, exploring concurrency, event-driven architectures, and low-level systems design. Next up: building an **API Gateway** in Go.
 
 ---
 
 ## What I'm Working On
 
-- Going deeper into **Go** -- goroutines, channels, worker pools, and systems-level programming
+- Going deeper into **Go** — goroutines, channels, worker pools, and systems-level programming
 - Building an **API Gateway** in Go (coming soon)
-- Recently built **[StreamForge](https://github.com/carissaayo/go-distributed-event-processing)** -- a distributed event processing pipeline with batch writes, Prometheus metrics, and graceful shutdown
+- Recently built **[StreamForge](https://github.com/carissaayo/go-distributed-event-processing)** — a distributed event processing pipeline with batch writes, Prometheus metrics, and graceful shutdown
+- **[go-distributed-file-system](https://github.com/carissaayo/go-distributed-file-system)** — content-addressed blob storage over TCP (length-prefixed framing, streaming PUT/GET, SHA-256 keys); my hands-on dive into protocols and `io` beyond typical HTTP APIs
 
 ## Notable Projects
 
 | Project | Stack | Description |
 |---------|-------|-------------|
+| [go-distributed-file-system](https://github.com/carissaayo/go-distributed-file-system) | Go | Content-addressed file store over TCP — custom binary protocol, streaming uploads/downloads, integration tests |
 | [StreamForge](https://github.com/carissaayo/go-distributed-event-processing) | Go, MongoDB, Prometheus | Distributed event pipeline with worker pools and batch writes |
-| [Multi-Tenancy](https://github.com/carissaayo/multi-tenancy-backend) | TypeScript ([frontend](https://github.com/carissaayo/multi-tenancy-frontend)) | Multi-tenant architecture -- [Live](https://multi-tenancy-frontend-9bzs.vercel.app/) |
-| [Job Processing](https://github.com/carissaayo/job-processing) | TypeScript ([frontend](https://github.com/carissaayo/job-processing-frontend)) | Background job processing system -- [Live](https://job-processing-frontend.vercel.app) |
+| [Multi-Tenancy](https://github.com/carissaayo/multi-tenancy-backend) | TypeScript ([frontend](https://github.com/carissaayo/multi-tenancy-frontend)) | Multi-tenant architecture — [Live](https://multi-tenancy-frontend-9bzs.vercel.app/) |
+| [Job Processing](https://github.com/carissaayo/job-processing) | TypeScript ([frontend](https://github.com/carissaayo/job-processing-frontend)) | Background job processing system — [Live](https://job-processing-frontend.vercel.app) |
 | [LMS](https://github.com/carissaayo/lms-nest) | NestJS, TypeScript ([frontend](https://github.com/carissaayo/lms-frontend)) | Learning management system |
 | [Loan API](https://github.com/carissaayo/loan-api) | TypeScript | Loan management API |
-| [Imagnify AI](https://github.com/carissaayo/imagnify_ai) | TypeScript | AI-powered image processing -- [Live](https://imagnify-ai.vercel.app) |
-| [HealthC Care](https://github.com/carissaayo/healthC_care) | TypeScript | Healthcare application -- [Live](https://health-c-care.vercel.app) |
+| [Imagnify AI](https://github.com/carissaayo/imagnify_ai) | TypeScript | AI-powered image processing — [Live](https://imagnify-ai.vercel.app) |
+| [HealthC Care](https://github.com/carissaayo/healthC_care) | TypeScript | Healthcare application — [Live](https://health-c-care.vercel.app) |
 
 ## Tech Stack
 
