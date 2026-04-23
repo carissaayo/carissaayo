@@ -8,9 +8,10 @@ I design and build software — from full-stack web applications to distributed 
 
 ## What I'm Working On
 
-- Going deeper into **Go** — goroutines, channels, worker pools, and systems-level programming
-- Building an **API Gateway** in Go (coming soon)
-- Recently built **[StreamForge](https://github.com/carissaayo/go-distributed-event-processing)** — a distributed event processing pipeline with batch writes, Prometheus metrics, and graceful shutdown
+- Going deeper into **Go** — mostly systems-level programming
+- Building a **[Durable Key Value Store](https://github.com/carissaayo/go-durable-kv)**  in Go (coming soon)- A key-value storage engine with full disk durability.
+- **[API Gateway](https://github.com/carissaayo/go-api-gateway)** — An enterprise-grade reverse proxy built with Go, MongoDB, and Redis. Sits between clients and backend microservices providing authentication, rate limiting, circuit breaking, request transformation, and analytics.
+- **[StreamForge](https://github.com/carissaayo/go-distributed-event-processing)** — a distributed event processing pipeline with batch writes, Prometheus metrics, and graceful shutdown
 - **[go-distributed-file-system](https://github.com/carissaayo/go-distributed-file-system)** — content-addressed blob storage over TCP (length-prefixed framing, streaming PUT/GET, SHA-256 keys); my hands-on dive into protocols and `io` beyond typical HTTP APIs
 
 ## Notable Projects
