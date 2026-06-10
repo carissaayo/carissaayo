@@ -1,6 +1,6 @@
 # Hi, I'm Ajao Yussuf
 
-**Software Engineer** based in Ilorin, Nigeria
+**Software Engineer** based in Lagos State, Nigeria
 
 I design and build software — from full-stack web applications to distributed backend systems. Currently going deeper into **Go**, exploring concurrency, event-driven architectures, and low-level systems design. Next up: building an **API Gateway** in Go.
 
@@ -9,15 +9,13 @@ I design and build software — from full-stack web applications to distributed 
 ## What I'm Working On
 
 - Going deeper into **Go** — mostly systems-level programming
-- Building a **[Durable Key Value Store](https://github.com/carissaayo/go-durable-kv)**  in Go (coming soon)- A key-value storage engine with full disk durability.
-- **[API Gateway](https://github.com/carissaayo/go-api-gateway)** — An enterprise-grade reverse proxy built with Go, MongoDB, and Redis. Sits between clients and backend microservices providing authentication, rate limiting, circuit breaking, request transformation, and analytics.
-- **[StreamForge](https://github.com/carissaayo/go-distributed-event-processing)** — a distributed event processing pipeline with batch writes, Prometheus metrics, and graceful shutdown
-- **[go-distributed-file-system](https://github.com/carissaayo/go-distributed-file-system)** — content-addressed blob storage over TCP (length-prefixed framing, streaming PUT/GET, SHA-256 keys); my hands-on dive into protocols and `io` beyond typical HTTP APIs
+- **[go-ops-cli](https://github.com/carissaayo/go-ops-cli)** — Stateless local process supervisor: YAML-defined services, PID + digest state under `~/.ops`, start/stop/status/logs/reload; build-tagged Unix vs Windows liveness and termination semantics
 
 ## Notable Projects
 
 | Project | Stack | Description |
 |---------|-------|-------------|
+| [go-ops-cli](https://github.com/carissaayo/go-ops-cli) | Go, Cobra | YAML-driven CLI supervisor for dev/CI — no daemon, cross-platform process control, log tail/follow, reload with spec digests |
 | [go-distributed-file-system](https://github.com/carissaayo/go-distributed-file-system) | Go | Content-addressed file store over TCP — custom binary protocol, streaming uploads/downloads, integration tests |
 | [StreamForge](https://github.com/carissaayo/go-distributed-event-processing) | Go, MongoDB, Prometheus | Distributed event pipeline with worker pools and batch writes |
 | [Multi-Tenancy](https://github.com/carissaayo/multi-tenancy-backend) | TypeScript ([frontend](https://github.com/carissaayo/multi-tenancy-frontend)) | Multi-tenant architecture — [Live](https://multi-tenancy-frontend-9bzs.vercel.app/) |
