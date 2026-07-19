@@ -2,7 +2,7 @@
 
 **Software Engineer** based in Lagos State, Nigeria
 
-I design and build software — from full-stack web applications to distributed backend systems. Currently going deeper into **Go**, exploring concurrency, event-driven architectures, and low-level systems design. Next up: building an **API Gateway** in Go.
+I design and build software — from full-stack web applications to distributed backend systems. Currently going deeper into **Go**, exploring concurrency, event-driven architectures, and low-level systems design.
 
 ---
 
