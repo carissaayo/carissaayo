@@ -8,13 +8,14 @@ I design and build software — from full-stack web applications to distributed 
 
 ## What I'm Working On
 
-- Going deeper into **Go** — mostly systems-level programming
-- **[go-kv-dist](https://github.com/carissaayo/go-kv-dist)** — 3-node Raft-replicated key-value service (etcd/raft), gRPC client + peer transport, storage backed by **[go-durable-kv](https://github.com/carissaayo/go-durable-kv)** (WAL + snapshot engine, not reimplemented in-repo)
+- **Client engagement (private)** — building a production pickup-and-delivery platform: NestJS API, realtime tracking, merchant/admin web, picker mobile
+- Going deeper into **Go** — concurrency, event-driven architectures, and systems design
 
 ## Notable Projects
 
 | Project | Stack | Description |
 |---------|-------|-------------|
+| [PeopleHQ](https://peoplehq.app) | NestJS, Next.js, PostgreSQL, Redis | Multi-tenant payroll & HR for Nigerian teams — statutory PAYE/pension/NHF, employees, leave, billing, async exports |
 | [go-kv-dist](https://github.com/carissaayo/go-kv-dist) | Go, gRPC, etcd/raft | Mini distributed KV — consensus + replication; linearizable leader reads; storage via [go-durable-kv](https://github.com/carissaayo/go-durable-kv) |
 | [go-durable-kv](https://github.com/carissaayo/go-durable-kv) | Go (stdlib), HTTP/TCP | Durable single-node KV engine — WAL append-before-apply, CRC32-validated replay, snapshots + WAL compaction, `sync.RWMutex`; powers **go-kv-dist** as the embedded storage layer |
 | [go-ops-cli](https://github.com/carissaayo/go-ops-cli) | Go, Cobra | YAML-driven CLI supervisor for dev/CI — no daemon, cross-platform process control, log tail/follow, reload with spec digests |
